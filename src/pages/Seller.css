@@ -1,0 +1,101 @@
+.seller-container {
+    width: 100%;
+    height: 350px; /* 1/4 of the viewport height */
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\src\images\sellerbg.jpg'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and transparency as needed */
+}
+
+.overlay-text {
+    color: #fff; /* Text color */
+    text-align: center;
+    font-size: 1.5rem; /* Adjust the font size as needed */
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.service-card {
+    width: 22%;
+    text-align: center;
+}
+
+.service-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 10px auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.retailers-icon {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\retailer.png'); /* Replace with the path to your retailers icon */
+}
+
+.food-processing-icon {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\industry.jpg'); /* Replace with the path to your food processing icon */
+}
+
+.exporters-icon {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\wholesale.jpg'); /* Replace with the path to your exporters icon */
+}
+
+.hotels-icon {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\restaurant.png'); /* Replace with the path to your hotels icon */
+}
+
+.separator {
+    width: 1.5px;
+    height: 390px;
+    background-color: green;
+}
+
+
+h2 {
+    font-size: 1.5em;
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.4;
+}
+.view-product-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.view-product-button:hover {
+    text-decoration: none;
+}

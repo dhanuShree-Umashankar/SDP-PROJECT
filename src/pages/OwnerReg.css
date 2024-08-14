@@ -1,0 +1,85 @@
+.registration-page {
+    
+    max-width: 800px; /* Reduced width */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .header .profile-icon {
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\profile.png'); /* Add path to your profile icon */
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-right: 10px; /* Space between icon and text */
+  }
+  
+  .header h3 {
+    margin: 0;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .form-group:last-child {
+    margin-right: 0;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submittt-button {
+    display: block;
+    background-color: #28a745;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 auto;
+    max-width: 100px;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  .required {
+    color: red;
+  }
+  

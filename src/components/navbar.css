@@ -1,0 +1,44 @@
+/* navbar.css */
+.navbar {
+   background-color: #2E8B58!important; 
+  /* background: linear-gradient(to right, #006400, #008000, #32CD32, #7CFC00, #99dd32); */
+
+  padding: 5rem 1rem;
+}
+
+.navbar .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar-brand .logo {
+  width: 60px;
+  height: 60px;
+  background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\src\images\farmer.png'); /* Replace with your logo path */
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.navbar .navbar-brand .brand-text {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.navbar .navbar-brand .tagline {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff!important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #a6aca4 !important;
+}
+
+.ml-auto {
+  margin-left: auto;
+}

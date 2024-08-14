@@ -1,0 +1,92 @@
+.login-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-container {
+    flex: 0 0 60%; /* Occupy 60% of the width */
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\buy.avif'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .right-container {
+    flex: 0 0 40%; /* Occupy 40% of the width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* Light background color */
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .header-text {
+    text-align: center;
+    margin-bottom: 20px; /* Space between the text and the form */
+  }
+  
+  .header-text h2 {
+    font-size: 1.8em;
+    margin: 0 0 10px 0;
+    color: #2E8B57; /* Dark text color */
+  }
+  
+  .header-text p {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    color:#2E8B57; /* Lighter text color */
+  }
+  
+  .form-wrapper {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    background: white;
+    padding: 30px;
+    Border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+  }
+  
+  h1 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Increased margin for better spacing */
+    width: 100%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    background-color: #0062cc;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .submit-button:hover {
+    background-color: #2E8B57;
+  }
+  

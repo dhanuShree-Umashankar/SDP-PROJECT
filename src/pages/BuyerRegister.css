@@ -1,0 +1,94 @@
+.buyer-registration {
+    display: flex;
+    height: 100vh;
+    max-width: 100%;
+    margin: 0;
+  }
+  
+  .image-containerr {
+    flex: 0 0 60%;
+    background-color: #f5f5f5;
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\buyerlogin1.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .form-section {
+    flex: 0 0 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  }
+  
+  .header-text {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color:#2E8B57; /* Adjust color as needed */
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-container h2{
+    text-align: center;
+  }
+  .progress-bar {
+    width: 100%;
+    background-color: lightgray;
+    height: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .progress {
+    height: 5px;
+    background-color: green; /* Update based on your progress color */
+  }
+  
+  .form-container input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: calc(100% - 20px); /* Adjust width to fit within padding */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-container button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0062cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .form-container button:hover {
+    background-color: #2E8B57;
+  }
+  
+  .form-container p {
+    margin-top: 10px;
+  }
+  
+  .form-container a {
+    color:#2E8B57;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+  }
+  

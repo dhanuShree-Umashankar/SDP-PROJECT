@@ -1,0 +1,68 @@
+.property-steps-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  .property-steps-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  .step {
+    width: 30%;
+  }
+  
+  .step-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .step1-icon {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\DETAILS.png'); /* Replace with your actual image path */
+  }
+  
+  .step2-icon {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\upload.png'); /* Replace with your actual image path */
+  }
+  
+  .step3-icon {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\pricing.png'); /* Replace with your actual image path */
+  }
+  
+  .step h3 {
+    font-size: 1.5rem;
+    color: #2E8B57;
+    margin: 10px 0;
+  }
+  
+  .step p {
+    font-size: 1rem;
+    color: #000000;
+  }
+  
+  .post-property-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .post-property-button:hover {
+    background-color: #2E8B57;
+  }
+  

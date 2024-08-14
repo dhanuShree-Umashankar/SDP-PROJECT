@@ -1,0 +1,165 @@
+/* Ensure the image covers the full width */
+.full-width-image {
+    width: 100%;
+    height: 330px; /* Adjust height as needed */
+    object-fit: cover;
+    position: relative; /* Ensures circles are positioned relative to this image */
+  }
+  
+  /* Container for the entire page content */
+  .categories-page {
+    position: relative;
+    text-align: center; /* Center text and inline elements */
+    padding: 20px;
+  }
+  /* Style for the circles container with Grid layout */
+  .circles-container {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the container */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns layout */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows layout */
+    gap: 20px; /* Adjust spacing between circles */
+    width: 60%; /* Adjust width to fit within container */
+    height: 60%; /* Adjust height as needed */
+    max-width: 800px; /* Limit maximum width */
+    pointer-events: none; /* Prevent interaction with circles */
+    z-index: 0; /* Ensure circles are below the cards */
+  }
+  
+  /* Style for each circle */
+  .circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color:#aeff007a; /* Semi-transparent white */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  /* Specific positioning for circles */
+  .circle:nth-child(1) { grid-column: 1; grid-row: 1; }
+  .circle:nth-child(2) { grid-column: 2; grid-row: 1; }
+  .circle:nth-child(3) { grid-column: 3; grid-row: 1; } /* Circle 3 in the first row */
+  .circle:nth-child(4) { grid-column: 1; grid-row: 2; }
+  .circle:nth-child(5) { grid-column: 2; grid-row: 2; }
+  .circle:nth-child(6) { grid-column: 3; grid-row: 2; }
+
+  /* General container styling */
+.dashboard-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Product list container styling */
+.prod-list-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.prod-list-container h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.prod-list {
+  list-style: none;
+  padding: 0;
+}
+
+.prod-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.prod-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 4px;
+}
+
+.prod-details {
+  flex: 1;
+}
+
+.prod-details h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.prod-details p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #888;
+}
+.prod-category-container {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.prod-category-header {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.prod-category-list {
+  list-style: none;
+  padding: 0;
+}
+
+.prod-category-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.prod-category-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.prod-category-name {
+  flex: 1;
+  font-size: 16px;
+  color: #333;
+}
+.prod-category-count {
+  margin-right: 55px;
+}
+.prod-add-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.prod-add-button:hover {
+  background-color: #45a049;
+}

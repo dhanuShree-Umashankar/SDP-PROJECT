@@ -1,0 +1,187 @@
+/* homepage.css */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.carousel-slide {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Set the height of the carousel */
+  background-size: cover;
+  background-position: center;
+}
+
+.slide1 {
+  background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\src\images\legend1.jpg'); /* Replace with your image path */
+}
+
+.slide2 {
+  background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\src\images\legend6.jpg'); /* Replace with your image path */
+}
+
+.slide3 {
+  background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\frontcarousel3.jpg'); /* Replace with your image path */
+}
+
+.carousel-text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  max-width: 40%;
+}
+
+.carousel-text h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  font-weight: bolder;
+}
+.goals h3, .goals p {
+  text-align: center;
+  
+}
+
+.grid-text-center {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.cont {
+  flex: 1;
+  max-width: 30%;
+  position: relative;
+  margin: 20px;
+  box-shadow: 0px 0px 5px black;
+  padding: 36px 12px 12px 12px;
+  border-radius: 35px 0px 35px 0px;
+  box-sizing: border-box;
+  text-align:justify;
+  
+}
+
+.count-box {
+  position: absolute;
+  top: -20px;
+  left: 31px;
+  border-radius: 50%;
+  background-color: #2E8B57;
+  width: 50px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+  box-sizing: border-box;
+}
+.content-section {
+  padding: 40px 20px; /* Add padding to the content section */
+}
+
+.content-body {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px; /* Add margin between sections */
+}
+
+.content-title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 37px;
+  color: #2E8B57;
+ 
+  
+}
+.text-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the text vertically */
+  height: 300px;
+  
+}
+.sub-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #2E8B57; /* Green color for subtitle */
+  margin-bottom: 10px;
+}
+
+.content-text {
+  font-size: 1.2em;
+  line-height: 1.6;
+  padding-bottom: 40px;
+  
+}
+
+.image-content1 {
+  flex: 1;
+  background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\farmerhome1.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin-left: 20px;
+  border-radius: 15px;
+ 
+}
+
+.image-content2 {
+  flex: 1;
+  background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\BUYER1.avif'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin-left: 20px;
+  border-radius: 15px;
+}
+.image-content3 {
+  flex: 1;
+  background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\landHome.webp'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin-left: 20px;
+  border-radius: 15px;
+}
+
+.farmers-box {
+  padding: 20px;
+  
+  border-radius: 8px; /* Optional: rounded corners */
+  background-color: #ffffff; /* Optional: background color inside the box */
+  max-width: 500px; /* Optional: max width for the box */
+  margin: 0 auto; /* Center the box horizontally */
+}
+/* Container to center the button */
+.button-container {
+  display: flex;
+  justify-content: center; /* Center align horizontally */
+  margin-top: 20px; /* Add spacing above the button */
+}
+
+/* Button styles */
+.rounded-button {
+  padding: 10px 20px; /* Adjust padding for desired width */
+  font-size: 1em; /* Adjust font size as needed */
+  color: white;
+  background-color: #2E8B57; /* Green color */
+  border: none;
+  border-radius: 25px; /* Rounded corners */
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth color transition */
+  max-width: 200px; /* Optional: Set a maximum width */
+}
+
+.rounded-button:hover {
+  background-color: #1d6f43; /* Darker green for hover effect */
+}
+

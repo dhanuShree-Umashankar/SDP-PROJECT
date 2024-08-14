@@ -1,0 +1,104 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.register-seller-page {
+  background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\registerbg.jpg'); /* Add your background image here */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+.register-seller-form {
+  background: rgba(255, 255, 255, 0.8); /* Transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  max-height: 70vh; /* Set a maximum height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+.register-seller-form h3{
+   text-align: center;
+   color: #2E8B57;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #2E8B57;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.submit-button {
+  background-color: #4682B4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #2E8B57;
+}
+.login-link {
+  text-align: center;
+  font-size: 1em;
+  color: #4682B4;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.login-link span {
+  margin-right: 5px;
+}
+
+.login-link a {
+  color: #2E8B57;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+.error-message {
+  color: red;
+  margin-top: 10px;
+}

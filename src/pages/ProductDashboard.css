@@ -1,0 +1,105 @@
+.product-dashboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .category-heading {
+    grid-column: span 4; /* Make heading span across all columns */
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #2E8B57;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .product-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(179, 165, 165, 0.1);
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust height to fit content */
+    color: white; /* Text color for contrast */
+    position: relative; /* Ensures positioning context for the text */
+  }
+  
+  .product-details {
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text readability */
+    position: absolute; /* Positioned over the image */
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .product-name {
+    font-size: 1.2em;
+    margin: 0 0 10px;
+  }
+  
+  .product-quantity, .product-price, .product-seller, .product-contact {
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 1200px) {
+    .product-dashboard {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns on medium screens */
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .product-dashboard {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .product-dashboard {
+      grid-template-columns: 1fr; /* 1 column on very small screens */
+    }
+  }
+  .product-card.veg1 {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\src\images\tomato.jpg'); /* Update with your actual image path */
+  }  
+  .product-card.veg2 {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\src\images\potato.jpg'); /* Update with your actual image path */
+  }  
+  .product-card.veg3 {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\src\images\carrot.jpg'); /* Update with your actual image path */
+  }  
+  .product-card.veg4 {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\src\images\cucumber.jpg'); /* Update with your actual image path */
+  }  
+  .product-card.fruit1 {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\src\images\apple.jpg'); /* Update with your actual image path */
+  }  
+  .product-card.fruit2 {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\src\images\banana.jpg'); /* Update with your actual image path */
+  }  
+  .product-card.fruit3 {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\src\images\orange.jpg'); /* Update with your actual image path */
+  }  
+  .product-card.fruit4 {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\src\images\grapes.jpg'); /* Update with your actual image path */
+  }  
+  .add-product-button {
+    position: absolute;
+    right: 20px;
+    background-color: #2E8B57;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  

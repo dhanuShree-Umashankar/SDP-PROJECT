@@ -1,0 +1,112 @@
+/* Donate.css */
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 60vh; /* Adjust the height as needed */
+    background: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\donatebg.webp') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .banner-content {
+   
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .banner-content h1 {
+    font-size: 2.5em; /* Adjust the size as needed */
+    margin: 0;
+  }
+  
+  .banner-content p {
+    font-size: 1.2em; /* Adjust the size as needed */
+    margin-top: 10px;
+  }
+  .donation-page {
+    padding: 20px;
+  }
+  
+  .donation-page h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .impact-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .impact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .impact-image {
+    width: 260px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+  }
+  
+  .seed-manure {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\seeds.jpg');
+  }
+  
+  .agriculture-machinery {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\tractor.webp');
+  }
+  
+  .farmers-education {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\farmerEdu.jpg');
+  }
+  
+  .impact-content h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+  }
+  
+  .impact-content p {
+    margin: 0;
+    font-size: 16px;
+  }
+  .donate-now-button {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+  }
+  
+  .donate-now-button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .donate-now-button:hover {
+    background-color: #218838;
+  }
+  

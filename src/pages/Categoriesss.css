@@ -1,0 +1,136 @@
+/* Ensure the image covers the full width */
+.full-width-image {
+    width: 100%;
+    height: 330px; /* Adjust height as needed */
+    object-fit: cover;
+    position: relative; /* Ensures circles are positioned relative to this image */
+  }
+  
+  /* Container for the entire page content */
+  .categories-page {
+    position: relative;
+    text-align: center; /* Center text and inline elements */
+    padding: 20px;
+  }
+  
+  /* Style for the categories container */
+  .categories-container {
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+    flex-wrap: wrap; /* Allow wrapping of cards */
+    gap: 20px; /* Adjust spacing between cards */
+    padding: 20px;
+    z-index: 1; /* Ensure cards are on top of circles */
+  }
+  
+  /* Style for the category cards */
+  .category-card {
+    width: 250px; /* Fixed width for better layout control */
+    height: 200px; /* Fixed height for better layout control */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center;
+    text-decoration: none; /* Remove underline from links */
+    position: relative;
+  }
+  .page-title {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .category-card.vegetables {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\src\images\vegetable.jpg');
+  }
+  
+  .category-card.fruits {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\fruits.jpg');
+  }
+  
+  .category-card.cereals {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\cereals.jpg');
+  }
+  
+  .category-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Style for the circles container with Grid layout */
+  .circles-container {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the container */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns layout */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows layout */
+    gap: 20px; /* Adjust spacing between circles */
+    width: 60%; /* Adjust width to fit within container */
+    height: 60%; /* Adjust height as needed */
+    max-width: 800px; /* Limit maximum width */
+    pointer-events: none; /* Prevent interaction with circles */
+    z-index: 0; /* Ensure circles are below the cards */
+  }
+  
+  /* Style for each circle */
+  .circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color:#aeff007a; /* Semi-transparent white */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  /* Specific positioning for circles */
+  .circle:nth-child(1) { grid-column: 1; grid-row: 1; }
+  .circle:nth-child(2) { grid-column: 2; grid-row: 1; }
+  .circle:nth-child(3) { grid-column: 3; grid-row: 1; } /* Circle 3 in the first row */
+  .circle:nth-child(4) { grid-column: 1; grid-row: 2; }
+  .circle:nth-child(5) { grid-column: 2; grid-row: 2; }
+  .circle:nth-child(6) { grid-column: 3; grid-row: 2; }
+  
+  .view-products-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .view-products-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .view-products-button:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+  }
+  
+  
+  .view-products-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }

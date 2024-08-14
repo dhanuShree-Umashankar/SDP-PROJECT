@@ -1,0 +1,135 @@
+.buyer-page {
+    width: 100%;
+    text-align: center;
+  /* padding: 20px; */
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  }
+  
+  .image-container {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\farmerhome2.jpg');
+    position: relative;
+    width: 100%;
+    height: 330PX; /* 1/4 of the page height */
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the container */
+    background-position: center; /* Centers the image */
+  }
+  
+  .full-width-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  .centered-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .tagline {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2E8B57;
+  }
+  
+  .icon-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .icon-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .icon {
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .separators {
+    width: 2px;
+    height: 150px;
+    background-color: #ccc;
+  }
+  .how-it-works {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .how-it-works h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #2E8B58;
+    text-align: center;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+  }
+  
+  .step-content {
+    text-align: center;
+  }
+  
+  .step h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #2E8B57;
+    font-weight: 200;
+  }
+  
+  .step p {
+    font-size: 1.2em;
+    color: #0a0a0a;
+  }
+  .registration-button-container {
+    
+    margin-top: -15px;
+    padding-bottom: 30px;
+  }
+  
+  .registration-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+   
+  }
+  
+  .registration-button:hover {
+    background-color: #2E8B57;
+  }
+  

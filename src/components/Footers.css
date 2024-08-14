@@ -1,0 +1,41 @@
+.Footers {
+    background-color: #2E8B57;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .quick-links,
+  .map,
+  .contact {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-item {
+    margin: 10px 0;
+  }
+  
+  .iframe {
+    border: 0;
+  }
+  .contact p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #fff;
+}

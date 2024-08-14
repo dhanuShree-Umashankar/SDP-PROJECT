@@ -1,0 +1,120 @@
+/* Set a background image for the land listings page */
+.land-listings .background-image {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\land.jpg'); /* replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    height: 350px; /* 1/4 of the viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .land-listings .search-bar {
+    width: 50%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .land-listings .search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .content {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .filter-sidebar {
+    width: 20%;
+    padding-right: 20px;
+  }
+  
+  .filter-sidebar h3 {
+    margin-bottom: 20px;
+  }
+  
+  .filter-group {
+    margin-bottom: 20px;
+  }
+  
+  .property-list {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .property-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: calc(33.333% - 20px); /* 3 cards per row with a 20px gap */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .property-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .property-details {
+    padding: 15px;
+  }
+  
+  .property-details h4 {
+    margin-top: 0;
+  }
+  
+  .post-property {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .post-property button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .post-property button:hover {
+    background: #2E8B57;
+  }
+  
+  /* Add background images for property cards */
+  .property-0 .property-image {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\land1.jpg'); /* replace with actual image path */
+  }
+  
+  .property-1 .property-image {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\land2.jpg'); /* replace with actual image path */
+  }
+  .property-2 .property-image {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\land4.jpeg'); /* replace with actual image path */
+  }
+  .property-3 .property-image {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\land3.avif'); /* replace with actual image path */
+  }
+  .property-4 .property-image {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\land5.jpg'); /* replace with actual image path */
+  }
+  .property-5 .property-image {
+    background-image: url('C:\Users\Dhanushree\OneDrive\Desktop\demo\my-app\public\land6.avif'); /* replace with actual image path */
+  }
+  
+  /* Add more properties as needed */
+  
